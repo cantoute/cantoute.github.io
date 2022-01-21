@@ -1,0 +1,51 @@
+#header {
+  color: rgb(10, 10, 98);
+  background-color: orange;
+  text-align: center;
+  margin: 20px auto 0;
+  max-width: 1000px;
+}
+
+/* // nous allons modifier la balise ul. */
+
+.ul {
+  list-style: none;
+  color: red;
+  font-family: arial;
+}
+
+/* //Style de Sidebar */
+
+html,
+body {
+  min-height: 100vh;
+}
+
+.sidebar {
+  min-height: 100%;
+  width: 160px;
+  background-color: black;
+  overflow: hidden; /*pour désactiver le scroll horizontal*/
+  padding-top: 20px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media only screen and (min-width: 550px) {
+}
+@media only screen and (min-width: 551px) and (max-width: 780px) {
+}
+@media only screen and (min-width: 781px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}

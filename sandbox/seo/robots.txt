@@ -1,0 +1,7 @@
+# robots.txt
+
+User-Agent: *
+Allow: /
+Disallow: /cart
+Allow: /cart-exemple
+Disallow: /my-account
